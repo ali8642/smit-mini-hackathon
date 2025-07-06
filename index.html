@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>BIO CWT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="logo-tab">
+                <img src="./assets/BIO CWT logo.png" alt="BIO CWT" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="nav" role="tablist">
+                    <a class="nav-link" data-bs-toggle="pill" href="#gallery" role="tab">Gallery</a>
+                    <a class="nav-link" data-bs-toggle="pill" href="#prices" role="tab">Prices for services</a>
+                    <a class="nav-link" data-bs-toggle="pill" href="#about" role="tab">About us</a>
+                    <a class="nav-link" data-bs-toggle="pill" href="#contact" role="tab">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TAB CONTENT SECTION -->
+    <div class="tab-content p-4">
+
+        <!-- HOME TAB -->
+        <div class="tab-pane fade show active" id="home" role="tabpanel">
+
+            <!-- HERO SECTION -->
+            <section class="home-tab-hero">
+                <img class="homebg" src="./assets/home bg.png" alt="">
+                <div class="home-tab-hero-content">
+                    <div class="home-tab-hero-info">
+                        <h1>SOLID<br>WOOD<br>PRODUCTS</h1>
+                        <p>Oak, beech, ash from<br><b>1700 CZK</b> per m3</p>
+                        <br>
+                        <button class="blueBtn">Order</button>
+                    </div>
+                    <div class="home-tab-hero-img">
+                        <img class="home-hero1" src="./assets/home hero 1.png" width="148px">
+                        <img class="home-hero2" src="./assets/home hero 2.png" width="148px">
+                        <img class="home-hero3" src="./assets/home hero 3.png" width="148px">
+                    </div>
+                </div>
+            </section>
+
+            <!-- WOOD CATEGORIES SECTION -->
+            <section class="woodCat center">
+                <h1>THE WOOD WE <br> WORK WITH</h1>
+                <div class="woodCat-cards">
+                    <div class="woodCat-card">
+                        <img src="./assets/oak.png" width="148px">
+                        <h3>Oak</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Durability</li>
+                            <li><i class="fa-solid fa-check"></i> Beautiful texture</li>
+                            <li><i class="fa-solid fa-check"></i> Water resistance</li>
+                            <li><i class="fa-solid fa-xmark"></i> Expensive</li>
+                        </ul>
+                    </div>
+                    <div class="woodCat-card">
+                        <img src="./assets/buk.png" width="148px">
+                        <h3>Buk</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Durability</li>
+                            <li><i class="fa-solid fa-xmark"></i> Hard to handle</li>
+                        </ul>
+                    </div>
+                    <div class="woodCat-card">
+                        <img src="./assets/ash.png" width="148px">
+                        <h3>Ash</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Durability</li>
+                            <li><i class="fa-solid fa-xmark"></i> Hard to handle</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WOOD QUALITIES SECTION -->
+            <section class="carousel-tab">
+                <h1>OUR WORK</h1>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- ADVANTAGES SECTION -->
+            <section class="workAdv center">
+                <h1>ADVANTAGES <br> WORKING WITH US</h1>
+                <div class="workAdv-content">
+                    <div><img src="./assets/advantages bg.png" alt=""></div>
+                    <div>
+                        <p>In-house carpentry <br>prduction</p><br>
+                        <p>We only treat wood with <br>environmentally friendly <br>and safe products</p><br>
+                        <p>Prices from the manufacturer,<br>no extra charges</p>
+                    </div>
+                </div>
+                <button class="blueBtn">Receive a consultation</button>
+            </section>
+
+            <!-- ABOUT US SECTION -->
+            <section class="home-tab-about">
+                <div class="home-tab-about-content">
+                    <div class="home-tab-about-info center">
+                        <h1>SOLID<br>WOOD<br>PRODUCTS</h1>
+                        <br>
+                        <p><b>BIO CWT</b> - We manufacture solid wood products according to individual drawings. We make
+                            chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped with all the
+                            necessary industrial equipment.</p>
+                    </div>
+                    <div class="home-tab-about-img">
+                        <img class="about-img1" src="./assets/about bg1.png" alt="" width="150px">
+                        <img class="about-img2" src="./assets/about bg2.png" alt="" width="260px">
+                        <img class="about-img3" src="./assets/about bg3.png" alt="" width="150px">
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ SECTION -->
+            <section class="home-faq">
+                <h1>ANY QUESTIONS?</h1>
+                <div class="home-faq-content center">
+                    <div class="home-faq-form center">
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                        <input type="number" name="phoneNo" id="phoneNo" placeholder="Your telephone number">
+                        <textarea name="query" id="query" placeholder="Your question" rows="5"></textarea>
+                        <button type="submit" class="blueBtn">Send</button>
+                    </div>
+                    <div class="home-faq-info">
+                        <br>
+                        <p>Write to us and we will be sure to answer all your questions and give you a comprehensive
+                            consultation.</p>
+                        <img src="./assets/wood.png" alt="" width="420px">
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div>
+                    <img src="./assets/BIO CWT logo.png" alt="BIO CWT" height="60">
+                    <a href="#"><i class="fas fa-phone-volume"></i> +420 000 000 000</a>
+                    <a href="#"><i class="fas fa-location-dot"></i> Na Plzence 1166/0 150 00</a>
+                </div>
+                <br>
+                <p>Privacy Policy</p>
+            </footer>
+        </div>
+
+
+
+        <!-- GALLERY TAB -->
+        <div class="tab-pane fade" id="gallery" role="tabpanel">
+
+            <div class="nav-bg"></div>
+            <!-- WOOD QUALITIES SECTION -->
+            <section class="carousel-tab">
+                <h1>OUR WORK</h1>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- WOOD CATEGORIES SECTION -->
+            <section class="woodCat center">
+                <h1>THE WOOD WE <br> WORK WITH</h1>
+                <div class="woodCat-cards">
+                    <div class="woodCat-card">
+                        <img src="./assets/oak.png" width="148px">
+                        <h3>Oak</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Durability</li>
+                            <li><i class="fa-solid fa-check"></i> Beautiful texture</li>
+                            <li><i class="fa-solid fa-check"></i> Water resistance</li>
+                            <li><i class="fa-solid fa-xmark"></i> Expensive</li>
+                        </ul>
+                    </div>
+                    <div class="woodCat-card">
+                        <img src="./assets/buk.png" width="148px">
+                        <h3>Buk</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Durability</li>
+                            <li><i class="fa-solid fa-xmark"></i> Hard to handle</li>
+                        </ul>
+                    </div>
+                    <div class="woodCat-card">
+                        <img src="./assets/ash.png" width="148px">
+                        <h3>Ash</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Durability</li>
+                            <li><i class="fa-solid fa-xmark"></i> Hard to handle</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ SECTION -->
+            <section class="home-faq">
+                <h1>ANY QUESTIONS?</h1>
+                <div class="home-faq-content center">
+                    <div class="home-faq-form center">
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                        <input type="number" name="phoneNo" id="phoneNo" placeholder="Your telephone number">
+                        <textarea name="query" id="query" placeholder="Your question" rows="5"></textarea>
+                        <button type="submit" class="blueBtn">Send</button>
+                    </div>
+                    <div class="home-faq-info">
+                        <br>
+                        <p>Write to us and we will be sure to answer all your questions and give you a comprehensive
+                            consultation.</p>
+                        <img src="./assets/wood.png" alt="" width="420px">
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div>
+                    <img src="./assets/BIO CWT logo.png" alt="BIO CWT" height="60">
+                    <a href="#"><i class="fas fa-phone-volume"></i> +420 000 000 000</a>
+                    <a href="#"><i class="fas fa-location-dot"></i> Na Plzence 1166/0 150 00</a>
+                </div>
+                <br>
+                <p>Privacy Policy</p>
+            </footer>
+        </div>
+
+        <!-- PRICES TAB -->
+        <div class="tab-pane fade" id="prices" role="tabpanel">
+
+            <div class="nav-bg"></div>
+            <!-- WOOD QUALITIES SECTION -->
+            <section class="carousel-tab">
+                <h1>OUR WORK</h1>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/price list 1.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/price list 2.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/price list 3.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/price list 4.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/price list 5.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/price list 6.png" class="d-block w-75" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- FAQ SECTION -->
+            <section class="home-faq">
+                <h1>ANY QUESTIONS?</h1>
+                <div class="home-faq-content center">
+                    <div class="home-faq-form center">
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                        <input type="number" name="phoneNo" id="phoneNo" placeholder="Your telephone number">
+                        <textarea name="query" id="query" placeholder="Your question" rows="5"></textarea>
+                        <button type="submit" class="blueBtn">Send</button>
+                    </div>
+                    <div class="home-faq-info">
+                        <br>
+                        <p>Write to us and we will be sure to answer all your questions and give you a comprehensive
+                            consultation.</p>
+                        <img src="./assets/wood.png" alt="" width="420px">
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div>
+                    <img src="./assets/BIO CWT logo.png" alt="BIO CWT" height="60">
+                    <a href="#"><i class="fas fa-phone-volume"></i> +420 000 000 000</a>
+                    <a href="#"><i class="fas fa-location-dot"></i> Na Plzence 1166/0 150 00</a>
+                </div>
+                <br>
+                <p>Privacy Policy</p>
+            </footer>
+
+
+        </div>
+
+        <!-- ABOUT US TAB -->
+        <div class="tab-pane fade" id="about" role="tabpanel">
+
+            <div class="nav-bg"></div>
+            <!-- ABOUT US SECTION -->
+            <section class="home-tab-about">
+                <div class="home-tab-about-content">
+                    <div class="home-tab-about-info center">
+                        <h1>SOLID<br>WOOD<br>PRODUCTS</h1>
+                        <br>
+                        <p><b>BIO CWT</b> - We manufacture solid wood products according to individual drawings. We make
+                            chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped with all the
+                            necessary industrial equipment.</p>
+                    </div>
+                    <div class="home-tab-about-img">
+                        <img class="about-img1" src="./assets/about bg1.png" alt="" width="150px">
+                        <img class="about-img2" src="./assets/about bg2.png" alt="" width="260px">
+                        <img class="about-img3" src="./assets/about bg3.png" alt="" width="150px">
+                    </div>
+                </div>
+            </section>
+
+            <!-- WOOD QUALITIES SECTION -->
+            <section class="carousel-tab">
+                <h1>OUR WORK</h1>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/carousel.png" class="d-block w-75" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- FAQ SECTION -->
+            <section class="home-faq">
+                <h1>ANY QUESTIONS?</h1>
+                <div class="home-faq-content center">
+                    <div class="home-faq-form center">
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                        <input type="number" name="phoneNo" id="phoneNo" placeholder="Your telephone number">
+                        <textarea name="query" id="query" placeholder="Your question" rows="5"></textarea>
+                        <button type="submit" class="blueBtn">Send</button>
+                    </div>
+                    <div class="home-faq-info">
+                        <br>
+                        <p>Write to us and we will be sure to answer all your questions and give you a comprehensive
+                            consultation.</p>
+                        <img src="./assets/wood.png" alt="" width="420px">
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div>
+                    <img src="./assets/BIO CWT logo.png" alt="BIO CWT" height="60">
+                    <a href="#"><i class="fas fa-phone-volume"></i> +420 000 000 000</a>
+                    <a href="#"><i class="fas fa-location-dot"></i> Na Plzence 1166/0 150 00</a>
+                </div>
+                <br>
+                <p>Privacy Policy</p>
+            </footer>
+
+        </div>
+
+        <!-- CONTACT TAB -->
+        <div class="tab-pane fade" id="contact" role="tabpanel">
+
+            <div class="nav-bg"></div>
+
+            <div class="contact-section">
+                <div>
+                    <h1>CONTACT</h1>
+                    <br><br>
+                    <a href="#"><i class="fas fa-phone-volume"></i> +420 000 000 000</a>
+                    <br><br>
+                    <a href="#"><i class="fas fa-location-dot"></i> Na Plzence 1166/0 150 00</a>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0305840799892!2d67.0863088!3d24.862804999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f0076d4b085%3A0x96a47cbe863a5833!2sZaitoon%20Ashraf%20IT%20Park%20by%20Saylani!5e0!3m2!1sen!2s!4v1751822057821!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <footer>
+                <div>
+                    <img src="./assets/BIO CWT logo.png" alt="BIO CWT" height="60">
+                    <a href="#"><i class="fas fa-phone-volume"></i> +420 000 000 000</a>
+                    <a href="#"><i class="fas fa-location-dot"></i> Na Plzence 1166/0 150 00</a>
+                </div>
+                <br>
+                <p>Privacy Policy</p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

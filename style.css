@@ -1,0 +1,496 @@
+@font-face {
+    font-family: KyivType;
+    src: url(./assets/fonts/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Regular-.otf);
+}
+
+
+html {
+    background-image: url(./assets/Group\ 9.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-color: #222021;
+}
+
+body {
+    font-family: KyivType, sans;
+    background: none;
+    color: white;
+}
+
+.nav-bg {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    transition: 0.6 ease;
+    top: 0;
+    z-index: -1;
+    background-color: #1e0c06;
+    border-radius: 0px 0px 28px 28px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.tab-pane {
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.tab-content {
+    padding: 0 !important;
+}
+
+.blueBtn {
+    background-color: #728bad;
+    color: white;
+    padding: 4px 30px;
+    border-radius: 24px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: bold;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+    width: 95%;
+    margin: 0% auto;
+    padding: 26px 12px;
+}
+
+/* HOME TAB */
+.homebg {
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.home-tab-hero {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 136px;
+}
+
+.home-tab-hero-content {
+    background-color: rgba(30, 12, 6, 0.8);
+    width: 65%;
+    padding: 36px;
+    box-shadow: 2px 2px 8px #838282;
+    position: relative;
+    right: 0;
+    border-radius: 24px 0px 0px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-tab-hero-info {
+    border-right: 1px solid white;
+    padding: 48px;
+}
+
+.home-tab-hero-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-hero1 {
+    position: relative;
+    right: 36%;
+}
+
+.home-hero2 {
+    position: relative;
+    right: 226px;
+    top: 30px;
+}
+
+.home-hero3 {
+    position: relative;
+    right: 36%;
+}
+
+/* WOOD CATEGORIES */
+.woodCat {
+    width: 95%;
+    margin: 0% auto;
+    flex-direction: column;
+}
+
+.woodCat-cards {
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+}
+
+.woodCat-card {
+    text-align: center;
+}
+
+.woodCat h3 {
+    padding: 16px;
+}
+
+.woodCat-card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.woodCat-card ul li {}
+
+.woodCat-card i {
+    color: #ffc099;
+}
+
+/* HOME TAB CAROUSEL */
+.carousel-tab {
+    /* padding: 60px; */
+    margin: 60px auto;
+}
+
+.carousel-tab h1 {
+    font-size: 66px;
+    padding: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.carousel img {
+    margin: 0% auto;
+}
+
+/* ADVATAGES WORKING WITH US SECTION */
+.workAdv {
+    width: 95%;
+    margin: 60px auto;
+    padding: 40px 0px;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.workAdv-content {
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.workAdv h1 {
+    font-size: 66px;
+    font-weight: bold;
+}
+
+.workAdv-content img {
+    width: auto;
+}
+
+/* HOME ABOUT */
+.home-tab-hero {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 136px;
+}
+
+.home-tab-about-content {
+    background-color: rgba(30, 12, 6, 0.8);
+    width: 65%;
+    margin: 60px 0px;
+    position: relative;
+    right: 0;
+    border-radius: 0px 24px 24px 0px;
+    box-shadow: 2px 2px 8px #838282;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-tab-about-info {
+    width: 50%;
+    padding: 48px;
+    flex-direction: column;
+}
+
+.home-tab-about-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img1 {
+    position: relative;
+    right: -25%;
+    top: 30px;
+}
+
+.about-img2 {
+    position: relative;
+    right: 50%;
+    bottom: 40px;
+}
+
+.about-img3 {
+    position: relative;
+    right: -15%;
+    bottom: 22px;
+}
+
+/* FAQ SECTION */
+.home-faq {
+    width: 95%;
+    margin: 0% auto;
+    padding: 36px 36px 0px 36px;
+}
+
+.home-faq-content {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.home-faq h1 {
+    text-align: right;
+}
+
+.home-faq-form {
+    width: 60%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    background: none;
+    color: #838282;
+    border: 3px solid #728bad;
+    border-radius: 24px;
+    padding: 8px 16px;
+    width: 80%;
+}
+
+/* for removing the up and down button in number input */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+textarea {
+    resize: none;
+    border: 3px solid #728bad;
+    width: 80%;
+    padding: 8px 16px;
+    border-radius: 24px;
+    background: none;
+    color: #838282;
+}
+
+.home-faq-info {
+    width: 40%;
+    text-align: right;
+}
+
+.home-faq-info img {
+    position: relative;
+    bottom: -120px;
+    z-index: -1;
+}
+
+/* Home Footer section */
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 20px 60px;
+    box-shadow: -8px -8px 16px #838282;
+    background-color: #222021;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div i {
+    font-size: 24px;
+    margin: 4px;
+}
+
+footer div a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* CONTACT TAB SECTION */
+.contact-section {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.contact-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-section i {
+    font-size: 24px;
+    margin: 4px;
+}
+
+iframe {
+    border-radius: 16px;
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .home-tab-hero-content {
+        flex-direction: column;
+        border: none;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .homebg {
+        width: 100%;
+    }
+
+    .home-hero1 {
+        left: 36%;
+    }
+
+    .home-hero2 {
+        right: 60px;
+        top: 0;
+    }
+
+    .home-hero3 {
+        left: 36%;
+    }
+
+    .woodCat-cards {
+        flex-direction: column;
+    }
+
+    .woodCat-card {
+        border-bottom: 1px solid white;
+        margin-bottom: 28px;
+    }
+
+    .workAdv-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .workAdv-content img {
+        width: 98%;
+    }
+
+    .workAdv h1 {
+        font-size: 48px;
+    }
+
+    .home-tab-about-content {
+        flex-direction: column;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .home-tab-about-info {
+        width: 90%;
+        padding: 18px;
+    }
+
+    .about-img1 {
+        right: -60%;
+    }
+
+    .about-img2 {
+        right: 20%;
+    }
+
+    .about-img3 {
+        right: -35%;
+    }
+
+    .home-faq {
+        padding: 30px 0px;
+        margin: 30px 0px;
+    }
+
+    .home-faq-content {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .home-faq-info {
+        width: 100%;
+    }
+
+    .home-faq-info img {
+        display: none;
+    }
+
+    .home-faq-form {
+        width: 100%;
+    }
+    
+    footer div {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    iframe {
+        width: 98%;
+    }
+
+    .navbar-toggler {
+        background-color: #838282;
+    }
+
+    .nav-bg {
+        height: 180px;
+    }
+}
